@@ -3208,7 +3208,7 @@ a:hover .lnk-icon-right {
   font-family: "Roboto";
   padding: 2em 3em;
   margin: 1em;
-  color: #262b38;
+  color: #1F5014;
   background: #F6F6E9;
   cursor: default;
   text-align: center;
@@ -3226,7 +3226,7 @@ a:hover .lnk-icon-right {
   }
 }
 .fh5co-pricing-style-2 .pricing-title {
-  font-size: 12px;
+  font-size: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 10px;
