@@ -882,7 +882,7 @@ a:hover .lnk-icon-right {
 */
 .fh5co-cover {
   position: relative;
-  min-height: 800px;
+  min-height: 600px;
 }
 .fh5co-cover .fh5co-cover-text {
   position: relative;
@@ -909,6 +909,7 @@ a:hover .lnk-icon-right {
   font-weight: 400;
   line-height: 26px;
   color: #CBDDD1;
+  max-width: 350px;
 }
 .fh5co-cover .fh5co-cover-text .btn-outline {
   border: 2px solid #CBDDD1;
@@ -943,7 +944,7 @@ a:hover .lnk-icon-right {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.1);
   z-index: 4;
 }
 
@@ -962,7 +963,7 @@ a:hover .lnk-icon-right {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.25);
   z-index: 4;
 }
 
@@ -1079,7 +1080,7 @@ a:hover .lnk-icon-right {
   right: 0;
   bottom: 0;
   z-index: 1;
-  opacity: .8;
+  opacity: .4;
   width: 100%;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -1096,11 +1097,11 @@ a:hover .lnk-icon-right {
 .fh5co-project-style-2 .fh5co-projects ul li a .fh5co-text .fh5co-text-inner {
   display: table-cell;
   vertical-align: middle;
-  height: 200px;
+  height: 300px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-project-style-2 .fh5co-projects ul li a .fh5co-text .fh5co-text-inner {
-    height: inherit;
+    height: 220px;
     padding: 4em 0;
   }
 }
@@ -1126,7 +1127,7 @@ a:hover .lnk-icon-right {
   position: relative;
 }
 .fh5co-project-style-2 .fh5co-projects ul li a:hover .fh5co-overlay {
-  opacity: .4;
+  opacity: .2;
 }
 
 .fh5co-project-style-3 .fh5co-project-wrap {
@@ -1366,6 +1367,15 @@ a:hover .lnk-icon-right {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 768px) {
+#outdoor {
+  background-size: cover;
+  background-position: center;
+
+}
 }
 
 /* 
@@ -2259,6 +2269,7 @@ a:hover .lnk-icon-right {
   bottom: 0;
   left: 0;
   right: 0;
+  background: rgba(0, 0, 0, 0.1);
 }
 .fh5co-blog-style-1 .fh5co-post .fh5co-post-image .fh5co-category {
   margin: 10px 0 0 15px;
@@ -3305,7 +3316,7 @@ a:hover .lnk-icon-right {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
 }
 .fh5co-counter-style-1, .fh5co-counter-style-1 .fh5co-section-content-wrap,
 .fh5co-counter-style-2,
